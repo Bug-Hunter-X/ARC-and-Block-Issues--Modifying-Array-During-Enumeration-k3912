@@ -1,0 +1,3 @@
+# Objective-C ARC and Block Bug: Array Modification During Enumeration
+
+This repository demonstrates a common issue in Objective-C related to automatic reference counting (ARC) and the use of blocks during array enumeration. Modifying the array being iterated upon within the block can cause unexpected behavior.  The `bug.m` file showcases the problematic code, while `bugSolution.m` illustrates how to safely modify the array.
